@@ -9,5 +9,11 @@
 import Foundation
 
 struct Podcast: Codable {
-    
+    let results: [PodcastWrapper]
+}
+
+struct PodcastWrapper: Codable {
+    let trackId: Int
+    let artistName: String
+    let trackName: String
 }
