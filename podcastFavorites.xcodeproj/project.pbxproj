@@ -14,6 +14,8 @@
 		1D33356923329F6D00C4B33A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D33356723329F6D00C4B33A /* LaunchScreen.storyboard */; };
 		1D33357423329F6E00C4B33A /* podcastFavoritesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33357323329F6E00C4B33A /* podcastFavoritesTests.swift */; };
 		1D33357F23329F6E00C4B33A /* podcastFavoritesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33357E23329F6E00C4B33A /* podcastFavoritesUITests.swift */; };
+		1D3335912332ADEB00C4B33A /* AppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3335902332ADEB00C4B33A /* AppErrors.swift */; };
+		1D3335932332AE4300C4B33A /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3335922332AE4300C4B33A /* NetworkHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1D33357A23329F6E00C4B33A /* podcastFavoritesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podcastFavoritesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D33357E23329F6E00C4B33A /* podcastFavoritesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = podcastFavoritesUITests.swift; sourceTree = "<group>"; };
 		1D33358023329F6E00C4B33A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D3335902332ADEB00C4B33A /* AppErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrors.swift; sourceTree = "<group>"; };
+		1D3335922332AE4300C4B33A /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,8 @@
 		1D33358D2332A19400C4B33A /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				1D3335902332ADEB00C4B33A /* AppErrors.swift */,
+				1D3335922332AE4300C4B33A /* NetworkHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -288,6 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D3335932332AE4300C4B33A /* NetworkHelper.swift in Sources */,
+				1D3335912332ADEB00C4B33A /* AppErrors.swift in Sources */,
 				1D33356123329F6C00C4B33A /* ViewController.swift in Sources */,
 				1D33355F23329F6C00C4B33A /* AppDelegate.swift in Sources */,
 			);
