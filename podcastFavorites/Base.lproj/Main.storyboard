@@ -61,7 +61,7 @@
         <!--View Controller-->
         <scene sceneID="jmD-Sw-s3R">
             <objects>
-                <viewController id="FPY-e3-xkM" sceneMemberID="viewController">
+                <viewController id="FPY-e3-xkM" customClass="ViewController" customModule="podcastFavorites" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dVP-1f-JH1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -124,6 +124,10 @@
                         <viewLayoutGuide key="safeArea" id="iUJ-Tu-qVz"/>
                     </view>
                     <navigationItem key="navigationItem" id="9Lb-LZ-gSZ"/>
+                    <connections>
+                        <outlet property="podcastCollectionView" destination="xUT-O3-g0y" id="WWB-Oa-qIb"/>
+                        <outlet property="podcastSearchBar" destination="w1U-fM-tLM" id="OZw-Hx-hGK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q1c-1Y-kQb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

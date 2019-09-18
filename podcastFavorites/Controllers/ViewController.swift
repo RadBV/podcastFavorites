@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    //MARK: -- Outlets
+    @IBOutlet weak var podcastSearchBar: UISearchBar!
+    @IBOutlet weak var podcastCollectionView: UICollectionView!
+    
+    //MARK: -- Functions
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
