@@ -16,4 +16,5 @@ struct PodcastWrapper: Codable {
     let trackId: Int
     let artistName: String
     let trackName: String
+    let artworkUrl60: String
 }

@@ -58,10 +58,10 @@
             </objects>
             <point key="canvasLocation" x="815.94202898550736" y="55.580357142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Podcast View Controller-->
         <scene sceneID="jmD-Sw-s3R">
             <objects>
-                <viewController id="FPY-e3-xkM" customClass="ViewController" customModule="podcastFavorites" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FPY-e3-xkM" customClass="PodcastViewController" customModule="podcastFavorites" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dVP-1f-JH1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,28 +75,28 @@
                                 <rect key="frame" x="0.0" y="132" width="414" height="681"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fGQ-qV-sFZ">
-                                    <size key="itemSize" width="111" height="115"/>
+                                    <size key="itemSize" width="119" height="115"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="92c-hh-yAw" customClass="PodcastCollectionViewCell" customModule="podcastFavorites" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="111" height="115"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="podcastCell" id="92c-hh-yAw" customClass="PodcastCollectionViewCell" customModule="podcastFavorites" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="119" height="115"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="111" height="115"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="119" height="115"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cO-sx-Thx">
-                                                    <rect key="frame" x="0.0" y="93" width="111" height="21"/>
+                                                    <rect key="frame" x="4" y="93" width="102" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R07-M5-P9d">
-                                                    <rect key="frame" x="0.0" y="70" width="111" height="21"/>
+                                                    <rect key="frame" x="4" y="70" width="102" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -104,7 +104,6 @@
                                                 </label>
                                             </subviews>
                                         </view>
-                                        <color key="backgroundColor" red="0.74483625860000002" green="0.5330961045" blue="0.78743043660000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="artistNameLabel" destination="0cO-sx-Thx" id="pBi-tw-vAW"/>
                                             <outlet property="trackNameLabel" destination="R07-M5-P9d" id="SNz-wK-6yA"/>
@@ -166,11 +165,11 @@
             </objects>
             <point key="canvasLocation" x="-1012" y="-268"/>
         </scene>
-        <!--Item 1-->
+        <!--Search-->
         <scene sceneID="1qe-So-zb5">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JvD-eO-RtG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="EWZ-wF-pme"/>
+                    <tabBarItem key="tabBarItem" title="Search" id="EWZ-wF-pme"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9v1-bK-kKm">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -185,11 +184,11 @@
             </objects>
             <point key="canvasLocation" x="-94.20289855072464" y="-592.63392857142856"/>
         </scene>
-        <!--Item 2-->
+        <!--Favorites-->
         <scene sceneID="nQm-ql-yUI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HW0-81-MjI" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Xnl-Md-pnf"/>
+                    <tabBarItem key="tabBarItem" title="Favorites" id="Xnl-Md-pnf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3Ez-ck-icX">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

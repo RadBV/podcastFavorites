@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D33355F23329F6C00C4B33A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33355E23329F6C00C4B33A /* AppDelegate.swift */; };
-		1D33356123329F6C00C4B33A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33356023329F6C00C4B33A /* ViewController.swift */; };
+		1D33356123329F6C00C4B33A /* PodcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33356023329F6C00C4B33A /* PodcastViewController.swift */; };
 		1D33356423329F6C00C4B33A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D33356223329F6C00C4B33A /* Main.storyboard */; };
 		1D33356623329F6D00C4B33A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D33356523329F6D00C4B33A /* Assets.xcassets */; };
 		1D33356923329F6D00C4B33A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D33356723329F6D00C4B33A /* LaunchScreen.storyboard */; };
@@ -41,7 +41,7 @@
 /* Begin PBXFileReference section */
 		1D33355B23329F6C00C4B33A /* podcastFavorites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = podcastFavorites.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D33355E23329F6C00C4B33A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1D33356023329F6C00C4B33A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D33356023329F6C00C4B33A /* PodcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastViewController.swift; sourceTree = "<group>"; };
 		1D33356323329F6C00C4B33A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D33356523329F6D00C4B33A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D33356823329F6D00C4B33A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 		1D33358E2332A1A600C4B33A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				1D33356023329F6C00C4B33A /* ViewController.swift */,
+				1D33356023329F6C00C4B33A /* PodcastViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -307,7 +307,7 @@
 				1D3335912332ADEB00C4B33A /* AppErrors.swift in Sources */,
 				1D3335992332B31300C4B33A /* PodcastCollectionViewCell.swift in Sources */,
 				1D3335972332AF2A00C4B33A /* Podcast.swift in Sources */,
-				1D33356123329F6C00C4B33A /* ViewController.swift in Sources */,
+				1D33356123329F6C00C4B33A /* PodcastViewController.swift in Sources */,
 				1D3335952332AEE400C4B33A /* PodcastAPIClient.swift in Sources */,
 				1D33355F23329F6C00C4B33A /* AppDelegate.swift in Sources */,
 			);
