@@ -16,6 +16,8 @@
 		1D33357F23329F6E00C4B33A /* podcastFavoritesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33357E23329F6E00C4B33A /* podcastFavoritesUITests.swift */; };
 		1D3335912332ADEB00C4B33A /* AppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3335902332ADEB00C4B33A /* AppErrors.swift */; };
 		1D3335932332AE4300C4B33A /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3335922332AE4300C4B33A /* NetworkHelper.swift */; };
+		1D3335952332AEE400C4B33A /* PodcastAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3335942332AEE400C4B33A /* PodcastAPIClient.swift */; };
+		1D3335972332AF2A00C4B33A /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3335962332AF2A00C4B33A /* Podcast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		1D33358023329F6E00C4B33A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D3335902332ADEB00C4B33A /* AppErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrors.swift; sourceTree = "<group>"; };
 		1D3335922332AE4300C4B33A /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		1D3335942332AEE400C4B33A /* PodcastAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastAPIClient.swift; sourceTree = "<group>"; };
+		1D3335962332AF2A00C4B33A /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,7 @@
 		1D33358C2332A18C00C4B33A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1D3335962332AF2A00C4B33A /* Podcast.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			children = (
 				1D3335902332ADEB00C4B33A /* AppErrors.swift */,
 				1D3335922332AE4300C4B33A /* NetworkHelper.swift */,
+				1D3335942332AEE400C4B33A /* PodcastAPIClient.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -296,7 +302,9 @@
 			files = (
 				1D3335932332AE4300C4B33A /* NetworkHelper.swift in Sources */,
 				1D3335912332ADEB00C4B33A /* AppErrors.swift in Sources */,
+				1D3335972332AF2A00C4B33A /* Podcast.swift in Sources */,
 				1D33356123329F6C00C4B33A /* ViewController.swift in Sources */,
+				1D3335952332AEE400C4B33A /* PodcastAPIClient.swift in Sources */,
 				1D33355F23329F6C00C4B33A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
